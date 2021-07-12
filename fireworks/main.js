@@ -12,7 +12,6 @@ function setup(){
 }
 
 function draw(){
-	resizeCanvas(windowWidth, windowHeight);
 	colorMode(RGB)
 	fill('red')
 	background(0, 0, 0, 25)

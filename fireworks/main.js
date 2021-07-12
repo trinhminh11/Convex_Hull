@@ -8,7 +8,7 @@ function setup(){
 	strokeWeight(4)
 	fireworks.push(new Firework())
 	background(0, 0, 0)
-	textSize(32)
+	textSize(64)
 }
 
 function draw(){

@@ -15,8 +15,6 @@ function draw(){
 	colorMode(RGB)
 	fill('red')
 	background(0, 0, 0, 25)
-	t = 'Happy Birthday :3'
-	text(t, width/2-textWidth(t)/2, 100)
 
 	if (random(1) < .03 || fireworks.length < 2) {
 		fireworks.push(new Firework())
